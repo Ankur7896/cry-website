@@ -9,6 +9,11 @@
     position: relative;
 }
 
+.logo
+a{
+        text-decoration: none;
+}
+
 #x{
     font-size: 2.5em;
     color: #ECC731;
@@ -64,13 +69,17 @@ a.active {
 
 .icon
 img{
-    width: 30px;
-    height: 30px;
-    margin: 25px 10px 10px 0px;
+
+    margin: 50px 10px 10px 0px;
 }
 
-.icon
-img:hover{
-    width: 35px;
-    height: 35px;
+#social-icon{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.fa:hover{
+    color: #ECC731 !important;
 }
