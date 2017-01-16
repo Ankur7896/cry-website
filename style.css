@@ -1,0 +1,76 @@
+#header_lg{
+    background-color: #231F20;
+    position: relative;
+    height: 70px;
+}
+
+.logo{
+    width: 100%;
+    position: relative;
+}
+
+#x{
+    font-size: 2.5em;
+    color: #ECC731;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+#y{
+    margin: 10px 0px 10px 0px;
+
+}
+
+.menu {
+    clear: none;
+    float: left;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.menu li{
+    font-size: 1.3em;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.menu
+a {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 18px;
+    border: none;
+    display: block;
+    color: #eee;
+    text-decoration: none;
+}
+
+.menu
+a:hover{
+    color: #313131;
+    background-color: #ECC731;
+}
+
+.menu
+a.active {
+    background-color: #313131;
+    color: black;
+}
+
+.icon
+img{
+    width: 30px;
+    height: 30px;
+    margin: 25px 10px 10px 0px;
+}
+
+.icon
+img:hover{
+    width: 35px;
+    height: 35px;
+}
