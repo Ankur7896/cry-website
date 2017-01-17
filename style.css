@@ -83,3 +83,109 @@ img{
 .fa:hover{
     color: #ECC731 !important;
 }
+
+.button{
+    background-color: #e6b800;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #cca300;
+}
+
+#intro{
+    color: #737373;
+    text-align: center;
+    font-size: 24px;
+    line-height: 37px;
+    font-family: Proxima Nova Thin, sans-serif;
+}
+
+#intro-heading{
+    color: #404040;
+    text-align: center;
+    font-size: 36px;
+    line-height: 37px;
+    font-family: Proxima Nova Thin, sans-serif;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+@media (min-width: 48em)
+.about {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.works{
+    background-color: #ECC731;
+    padding-bottom: 200px;
+
+}
+
+.works a{
+    text-decoration: none;
+}
+
+.works a:hover{
+    color: #002266 !important;
+}
+
+#three-title{
+    font-family: Proxima Nova Thin, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 46px 0px 43px 0px;
+    font-size: 48px;
+}
+
+#column{
+    margin-right: 30px;
+}
+
+.image-container{
+    display: table;
+    width: 100%;
+    padding: 23px 0px;
+}
+
+.image{
+    height: 150px;
+    vertical-align: bottom;
+    display: table-cell;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    background: transparent;
+}
+
+.text-container{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+#work-head{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#work-text{
+    height: 200%;
+}
+
+#explore-work{
+    color: #0044cc;
+    font-weight: 700;
+}
