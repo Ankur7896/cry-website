@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     #list{
             color: black;
 
@@ -8,24 +8,95 @@
         display: none;
     }
 
+    .logo{
+        margin-left: 20px;
+    }
+
     .recent-work-image{
-        width: 150px !important;
-        height: 150px !important;
+        width: 180px !important;
+        height: 180px !important;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-right: 100px;
     }
     .recent-work-heading{
-    font-size: 18px !important;
-    font-weight: 1000px !important;
-    width: 100px !important;
-    height: 35px !important;
-    margin-top: 40px !important ;
+    font-size: 20px !important;
+    margin-left: 80px !important;
+    margin-bottom: 10px !important;
+    margin-top: -260px !important;
+
     }
 
     .recent-work-text{
-    padding-top: 170px !important;
     padding-left: 0px !important;
     padding-bottom: 30px !important;
+    margin-bottom: 60px !important;
 }
 }
+
+@media screen and (min-width:600px){
+    #nav-team{
+        padding-right: 20px !important;
+    }
+
+    .recent-work-image{
+        width: 180px !important;
+        height: 180px !important;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+    .recent-work-heading{
+    font-size: 20px !important;
+    margin-left: 80px !important;
+    margin-bottom: 10px !important;
+    margin-top: -20px !important;
+
+    }
+
+    .recent-work-text{
+    padding-left: 20px !important;
+    padding-bottom: 30px !important;
+    margin-bottom: 60px !important;
+}
+}
+
+@media screen and (min-width:800px){
+
+    #nav-team{
+        padding-right: 130px !important;
+    }
+
+.recent-work-image{
+    width: 220px !important;
+    height: 220px !important;
+    margin-right: 0px !important;
+}
+
+.recent-work-heading{
+    font-size: 24px !important;
+    line-height: 20px !important;
+    font-weight: 900px !important;
+    margin-bottom: 15px !important;
+    margin-top: -250px !important;
+}
+
+.recent-work-text{
+    padding-top: 65px !important;
+    font-size: 22px !important;
+    padding-left: 300px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+
+}
+}
+
+@media screen and (min-width:1025px){
+    .recent-work-heading{
+        margin-top: 0px !important;
+    }
+}
+
 header{
     background-color: #231F20;
 }
@@ -105,10 +176,14 @@ img{
     margin: 50px 10px 10px 0px;
 }
 
+#nav-team{
+    padding-right: 130px;
+}
+
 #social-icon{
     color: white;
     font-size: 1.5em;
-    padding-left: 10px;
+    padding-left: 15px;
     padding-top: 25px;
 }
 
@@ -131,6 +206,10 @@ img{
     box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.4) ;
 }
 button:hover{
+    background-color: #cca300;
+}
+
+button:active{
     background-color: #cca300;
     -webkit-box-shadow: 1px 1px 0 0 rgba(0,0,0,0.5) inset;
     box-shadow: 1px 1px 0 0 rgba(0,0,0,0.5) inset;
@@ -263,7 +342,6 @@ button:hover{
     line-height: 20px;
     font-weight: 900px;
     margin-bottom: 15px;
-    color: #404040
     display: block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -281,13 +359,12 @@ button:hover{
     border: none;
     -webkit-border-radius: 0;
     border-radius: 0;
-    color: rgba(0,0,0,1);
     text-indent: 9px;
     -o-text-overflow: clip;
     text-overflow: clip;
     background: rgba(236,199,49,1);
-    -webkit-box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.4) ;
-    box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.4) ;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
     text-shadow: none;
     -webkit-transition: none;
     -moz-transition: none;
@@ -296,12 +373,14 @@ button:hover{
     -webkit-transform:    skewX(-20deg);
     transform:    skewX(-20deg);
     -webkit-transform-origin: 50% 50% 0;
-    transform-origin: 50% 50% 0;;
+    transform-origin: 50% 50% 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .recent-work-text{
     padding-top: 65px;
     font-size: 22px;
-    padding-left: 230px;
+    padding-left: 250px;
     color: #737373;
+    line-height: 28px;
 }
