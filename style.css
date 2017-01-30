@@ -5,6 +5,20 @@ button[ id= "servicios" ]:target ~ #category div.row {
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
 }
+@media screen and (max-width: 770px){
+    .intro-heading, .intro-lead-in{
+        color: #b3b3b3 !important;
+        line-height: 30px;
+        margin-bottom: 50px !important;
+    }
+    .intro-text{
+        font-family: 'PT Sans', sans-serif;
+    }
+    .enjoy-css1{
+        color: #ECC731 !important;
+        border: 4px solid #ECC731 !important;
+    }
+}
 .fullscreen-bg {
     position: fixed;
     top: 0;
