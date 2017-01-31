@@ -51,6 +51,7 @@ button[ id= "servicios" ]:target ~ #category div.row {
   }
 }
 
+
 @media screen and (max-width: 500px) {
     #list{
             color: black;
