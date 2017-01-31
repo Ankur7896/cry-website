@@ -51,16 +51,6 @@ button[ id= "servicios" ]:target ~ #category div.row {
   }
 }
 
-@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
-
-  .fullscreen-bg__video {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 500px) {
     #list{
             color: black;
